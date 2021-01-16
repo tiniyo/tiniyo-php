@@ -1,7 +1,5 @@
 {
     "name": "tiniyo/examples",
-    "description": "examples for php tiniyo sdk",
-    "type": "library",
     "authors": [
         {
             "name": "Support Tiniyo",
@@ -9,6 +7,6 @@
         }
     ],
     "require": {
-        "twilio/sdk": "^6.16"
+        "tiniyo/tiniyo-php": "^1.0.2"
     }
 }
