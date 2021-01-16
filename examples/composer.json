@@ -1,0 +1,14 @@
+{
+    "name": "tiniyo/examples",
+    "description": "examples for php tiniyo sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Support Tiniyo",
+            "email": "support@tiniyo.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^6.16"
+    }
+}
