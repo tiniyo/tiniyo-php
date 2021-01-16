@@ -8,5 +8,7 @@
             "email": "support@tiniyo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twilio/sdk": "^6.16"
+    }
 }
