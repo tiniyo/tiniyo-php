@@ -11,5 +11,10 @@
     "require": {
 	"php": ">=7.1.0",
         "twilio/sdk": "^6.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiniyo\\": "src/"
+        }
     }
 }
