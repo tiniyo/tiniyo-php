@@ -8,6 +8,8 @@ class Client extends \Twilio\Rest\Client {
     parent::__construct($accountSid, $token, $accountSid, null, $httpClient, null);
     $domain = "https://api.tiniyo.com";
     $this->_api = new Api($this, $domain);
+     $this->_v2010 = new V2010($this, $domain);
+
   }
 
 }
