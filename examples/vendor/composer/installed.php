@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '9c31efa8d907abfb0b29ea6c1d321878b073660d',
+    'reference' => '6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89',
     'name' => 'tiniyo/examples',
   ),
   'versions' => 
@@ -18,7 +18,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => '9c31efa8d907abfb0b29ea6c1d321878b073660d',
+      'reference' => '6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89',
+    ),
+    'tiniyo/tiniyo-php' => 
+    array (
+      'pretty_version' => 'v1.0.3',
+      'version' => '1.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89',
     ),
     'twilio/sdk' => 
     array (

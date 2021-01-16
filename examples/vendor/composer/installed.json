@@ -1,6 +1,47 @@
 {
     "packages": [
         {
+            "name": "tiniyo/tiniyo-php",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tiniyo/tiniyo-php.git",
+                "reference": "6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tiniyo/tiniyo-php/zipball/6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89",
+                "reference": "6f91d2875e9c4c68aa5185ecd2ad7527fbd9bc89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "twilio/sdk": "^6.16"
+            },
+            "time": "2021-01-16T17:29:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Tiniyo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "tiniyo",
+                    "email": "support@tiniyo.com"
+                }
+            ],
+            "description": "php sdk for tiniyo api",
+            "support": {
+                "issues": "https://github.com/tiniyo/tiniyo-php/issues",
+                "source": "https://github.com/tiniyo/tiniyo-php/tree/v1.0.3"
+            },
+            "install-path": "../tiniyo/tiniyo-php"
+        },
+        {
             "name": "twilio/sdk",
             "version": "6.16.0",
             "version_normalized": "6.16.0.0",

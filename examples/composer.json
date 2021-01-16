@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "tiniyo/tiniyo-php": "^1.0.2"
+        "tiniyo/tiniyo-php": "^1.0"
     }
 }
