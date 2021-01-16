@@ -1,0 +1,12 @@
+{
+    "name": "tiniyo/tiniyo-php",
+    "description": "php sdk for tiniyo api",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tiniyo",
+            "email": "support@tiniyo.com"
+        }
+    ],
+    "require": {}
+}
