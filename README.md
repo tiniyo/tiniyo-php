@@ -75,3 +75,26 @@ $token = "YYYYYY"; // Your Auth Token from https://tiniyo.com
 $client = new Tiniyo\Rest\Client($sid, $token);
 $client->setLogLevel('debug');
 ```
+### Generating Tinixml
+
+To control phone calls, your application needs to output Tinixml.
+
+Use `Tiniyo\Tinixml\(Voice|Messaging|Fax)Response` to easily chain said responses.
+
+```php
+<?php
+$response = new Tiniyo\Tinixml\VoiceResponse();
+$response->say('Hello');
+$response->play('https://api.tiniyo.com/cowbell.mp3', ['loop' => 5]);
+print $response;
+```
+
+That will output XML that looks like this:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Response>
+    <Say>Hello</Say>
+    <Play loop="5">https://api.tiniyo.com/cowbell.mp3</Play>
+</Response>
+```
